@@ -1,0 +1,133 @@
+*
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+    height: 25em;
+    border-radius: 30px;
+    background-color: hsl(212, 17%, 17%);
+}
+#content {
+    margin: 2.5em;
+}
+#ratings input {
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(220, 2%, 27%);
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+    margin-right: 1.5em;
+} 
+p {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+#ratings input:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#ratings input.active {
+    background-color: hsl(217, 12%, 63%);
+}
+#star {
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(220, 2%, 27%);
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 23em;
+    height: 3em;
+    border: none;
+    border-radius: 30px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+/* Thank you page */
+.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+    height: 25em;
+    border-radius: 30px;
+    background-color: hsl(212, 17%, 17%);
+    text-align: center;
+}
+.child {
+    margin: 3em;
+}
+.thankimg {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+ .ratingNo {
+    text-align: center;
+    width: fit-content;
+    height: 30px;
+    background-color: hsl(220, 2%, 27%);
+    border-radius: 20px;
+    margin-left: 5em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .ratingNo p {
+    color: hsl(25, 97%, 53%);
+    padding: 2px;
+ }
+ .para {
+    margin-top: 2px;
+ }
+
+@media screen and (max-width: 375px)  {
+    #container {
+        width: 19em;
+        height: 20em;
+        border-radius: 20px;
+    }
+    #content {
+        margin: 1em;
+    }
+    #ratings input {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 1em;
+    }
+    button {
+        width: 18em;
+        height: 3em;
+    }
+    .parent {
+        width: 19em;
+        height: 20em;
+        border-radius: 20px;
+    }
+    .child {
+        margin: 1em;
+    }
+    .ratingNo {
+        margin-left: 4em;
+    }
+}
+
