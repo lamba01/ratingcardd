@@ -91,6 +91,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+     padding: 5px 10px
  }
  .ratingNo p {
     color: hsl(25, 97%, 53%);
